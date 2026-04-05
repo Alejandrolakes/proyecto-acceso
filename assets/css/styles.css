@@ -1,0 +1,20 @@
+body {
+    display: flex; /*activa el modo flexible*/
+    justify-items:center; /*centra horizontal*/
+    align-items: center; /*ocupa toda la pantalla*/
+    height: 100vh;
+}
+
+.cuadro {
+    background-color: white; /* color del cuadro */
+    width: 400px; /* ancho del cuadro */
+    padding: 20px; /* Espacio interno */
+    border: 3px solid black;/*Borde*/
+    margin: 30px auto; /*Centra horizontalmente*/
+    box-shadow: 0 0 10px gray;/* sombra */
+}
+
+.campo {
+    display: flex;
+    flex-direction: column; 
+}
