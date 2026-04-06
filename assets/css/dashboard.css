@@ -20,16 +20,17 @@ body {
     display: flex; /*activa flexbox*/
     gap: 20px; /*espacio entre las tarjetas*/
     padding: 20px; /*espacio exterior*/
+    flex-direction: column;
 
 }
 .card {
-    background-color: #5372a3; /* color de fondo de la tarjeta*/
+    background-color: #ffffff; /* color de fondo de la tarjeta*/
     padding: 25px; /* espacio interno*/
     border-radius: 10px; /*bordes redondos */
     width: 300px ; /*ancho fijo*/
     text-align: center; /* centrar el texto*/
-    color: white; /* color del texto*/
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0); /* color del texto*/
+    box-shadow: 0 10px 25px rgba(49, 0, 247, 0.5);
     transition: transform 0.3s ease; /*animacion suave*/
     font-family: 'Michroma', sans-serif;
     cursor: pointer;
@@ -37,4 +38,33 @@ body {
 .card:hover {
     transform: translateY(-8px); /* levanta la tarjeta al pasar el mouse */
 }
+.colaboradores {
+    background-color: #ffffff; /* color de fondo de la tarjeta*/
+    padding: 25px; /* espacio interno*/
+    border-radius: 10px; /*bordes redondos */
+    width: 300px ; /*ancho fijo*/
+    text-align: center; /* centrar el texto*/
+    color: rgb(0, 0, 0); /* color del texto*/
+    box-shadow: 0 10px 25px rgba(49, 0, 247, 0.5);
+    transition: transform 0.3s ease; /*animacion suave*/
+    font-family: 'Michroma', sans-serif;
+    cursor: pointer;
+}
+.colaboradores:hover {
+    transform: translateY(-8px); /* levanta la tarjeta al pasar el mouse */
+}
 
+.input-busqueda {
+    padding: 12px 15px; /*Espacio interno*/
+    border-radius: 15px; /* bordes redondos*/
+    border: none; /*sin bordes feos*/
+    outline: none; /*quita vorde azul al hacer click*/
+    background-color: rgba(255, 255, 255, 0.1); /*Fondo trasnparente*/
+    color: white;
+    font-family: 'Michroma' sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /*sombra*/
+    transition: all 0.3s ease; /*animacion suave*/
+}
+input {
+    font-family: 'Michroma' sans-serif;
+}

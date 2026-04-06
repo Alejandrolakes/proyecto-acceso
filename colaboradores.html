@@ -10,22 +10,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contenedor"> <!-- contenedor padre -->
-
-        <div class="card" onclick="location.href='colaboradores.html'""> <!-- Este onclick hace que la tarjeta sea cliqueable y envie a un link-->
-            <h1>Colaboradores</h1>
-        </div>
+    <div class="contenedor">
+        <h1 class="card">Lista de colaboradores</h1>
     
-        <div class="card" onclick="location.href='clientes.html'">
-            <h1>Clientes</h1>
-        </div>
-
-        <div class="card">
-            <h1>Ventas</h1>
-        </div>
-
-        <div class="card">
-            <h1>Compras</h1>
+        <div class="filtros">
+            <input type="text" placeholder="Buscar por nombre" class="input-busqueda">
+            <input type="number" placeholder="Buscar por rut" class="input-busqueda">
         </div>
     </div>
 </body>
