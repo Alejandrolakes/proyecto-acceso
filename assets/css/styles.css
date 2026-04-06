@@ -1,10 +1,15 @@
 body {
-    display: flex; /*activa el modo flexible*/
-    justify-items:center; /*centra horizontal*/
-    align-items: center; /*ocupa toda la pantalla*/
-    height: 100vh;
+    display: flex; /* activa el modo flexible */
+    justify-content: center; /* centra horizontalmente */
+    align-items: center; /* centra verticalmente */
+    height: 100vh; /* ocupa toda la altura de la pantalla */
+    font-family: 'Michroma', sans-serif;
 }
 
+h3 {
+    font-family: 'Michroma', sans-serif;
+    font-size: 40px;
+}
 .cuadro {
     background-color: white; /* color del cuadro */
     width: 400px; /* ancho del cuadro */
@@ -17,4 +22,10 @@ body {
 .campo {
     display: flex;
     flex-direction: column; 
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
 }
