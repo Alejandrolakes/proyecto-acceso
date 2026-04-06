@@ -1,0 +1,40 @@
+body {
+    margin: 0; /* elimina márgenes por defecto */
+    min-height: 100vh; /* ocupa toda la altura de la pantalla */
+
+    display: flex; /* activa flexbox */
+    justify-content: center; /* centra horizontal */
+    align-items: center; /* centra vertical */
+
+    font-family: 'Michroma', sans-serif; /* tipografía */
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #334155
+    ); /* fondo degradado moderno */
+}
+
+.contenedor {
+    display: flex; /*activa flexbox*/
+    gap: 20px; /*espacio entre las tarjetas*/
+    padding: 20px; /*espacio exterior*/
+
+}
+.card {
+    background-color: #5372a3; /* color de fondo de la tarjeta*/
+    padding: 25px; /* espacio interno*/
+    border-radius: 10px; /*bordes redondos */
+    width: 300px ; /*ancho fijo*/
+    text-align: center; /* centrar el texto*/
+    color: white; /* color del texto*/
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /*animacion suave*/
+    font-family: 'Michroma', sans-serif;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translateY(-8px); /* levanta la tarjeta al pasar el mouse */
+}
+

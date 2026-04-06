@@ -4,7 +4,7 @@ body {
     align-items: center; /* centra verticalmente */
     min-height: 100vh; /* ocupa toda la altura de la pantalla */
     font-family: 'Michroma', sans-serif;
-    background-image: url("https://images.pexels.com/photos/17056273/pexels-photo-17056273.jpeg"); /* imagen de fondo */
+    background-image: url("https://images.pexels.com/photos/2017747/pexels-photo-2017747.jpeg"); /* imagen de fondo */
     background-size: cover; /* cubre toda la pantalla */
     background-position: center; /* centra la imagen */
     background-repeat: no-repeat; /* evita que se repita */
@@ -18,12 +18,12 @@ h3 {
     margin-top: 0;
 }
 .cuadro {
-    background-color: #f5f7fa; /* color del cuadro */
+    background-color: #f7f7f7; /* color del cuadro */
     width: 400px; /* ancho del cuadro */
     padding: 20px; /* Espacio interno */
-    border: 3px solid black;/*Borde*/
-    box-shadow: 0 0 10px gray;/* sombra */
-    border-radius: 15px; /* Bordes redondos*/
+    border: 2px solid black;/*Borde*/
+    box-shadow: 0 0 10px rgb(0, 0, 0);/* sombra */
+    border-radius: 17px; /* Bordes redondos*/
 }
 
 .campo {
@@ -33,7 +33,7 @@ h3 {
     font-family: 'Michroma', sans-serif;
 }
 
-label {
+label { 
     font-weight: bold;
     margin-bottom: 5px;
 }
