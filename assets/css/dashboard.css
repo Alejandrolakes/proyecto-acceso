@@ -1,19 +1,15 @@
 body {
     margin: 0; /* elimina márgenes por defecto */
     min-height: 100vh; /* ocupa toda la altura de la pantalla */
-
+    background-image: url("https://images.pexels.com/photos/33802581/pexels-photo-33802581.jpeg");
+    background-size: cover; /* cubre toda la pantalla */
+    background-position: center; /* centra la imagen */
     display: flex; /* activa flexbox */
     justify-content: center; /* centra horizontal */
     align-items: center; /* centra vertical */
 
     font-family: 'Michroma', sans-serif; /* tipografía */
-
-    background: linear-gradient(
-        135deg,
-        #0f172a,
-        #1e293b,
-        #334155
-    ); /* fondo degradado moderno */
+     /* fondo degradado moderno */
 }
 
 .contenedor {
@@ -30,7 +26,7 @@ body {
     width: 300px ; /*ancho fijo*/
     text-align: center; /* centrar el texto*/
     color: rgb(0, 0, 0); /* color del texto*/
-    box-shadow: 0 10px 25px rgba(49, 0, 247, 0.5);
+    box-shadow: 0 10px 25px rgba(1, 0, 5, 0.5);
     transition: transform 0.3s ease; /*animacion suave*/
     font-family: 'Michroma', sans-serif;
     cursor: pointer;
@@ -59,8 +55,8 @@ body {
     border-radius: 15px; /* bordes redondos*/
     border: none; /*sin bordes feos*/
     outline: none; /*quita vorde azul al hacer click*/
-    background-color: rgba(255, 255, 255, 0.1); /*Fondo trasnparente*/
-    color: white;
+    background-color: rgba(0, 0, 0, 0.1); /*Fondo trasnparente*/
+    color: rgb(0, 0, 0);
     font-family: 'Michroma' sans-serif;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /*sombra*/
     transition: all 0.3s ease; /*animacion suave*/
