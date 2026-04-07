@@ -1,16 +1,17 @@
 body {
     margin: 0; /* elimina márgenes por defecto */
-    min-height: 100vh; /* ocupa toda la altura de la pantalla */
-    background-image: url("https://images.pexels.com/photos/33802581/pexels-photo-33802581.jpeg");
-    background-size: cover; /* cubre toda la pantalla */
-    background-position: center; /* centra la imagen */
-    display: flex; /* activa flexbox */
-    justify-content: center; /* centra horizontal */
-    align-items: center; /* centra vertical */
-
+    height: 100vh; /* ocupa toda la altura de la pantalla */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(-45deg, #0a1f44, #1c3d73, #0d2a5c, #122c5a);
+    background-size: 400% 400%; /* cubre toda la pantalla */
+    animation: moverFondo 10s ease infinite;
     font-family: 'Michroma', sans-serif; /* tipografía */
      /* fondo degradado moderno */
 }
+
+
 
 .contenedor {
     display: flex; /*activa flexbox*/
